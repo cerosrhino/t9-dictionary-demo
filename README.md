@@ -6,7 +6,9 @@ Here's an animated example:
 
 Uses words from [first20hours' dictionary](https://github.com/first20hours/google-10000-english), but any dictionary can be used.
 
-The application works by loading words from the dictionary into a [ternary search tree](https://en.wikipedia.org/wiki/Ternary_search_tree).
+The application works by loading words from the dictionary into a [ternary search tree](https://en.wikipedia.org/wiki/Ternary_search_tree). There's also a deque class. I'm aware of the existence of [std::deque](http://en.cppreference.com/w/cpp/container/deque), but part of the assignment was to avoid readily available containers, for obvious reasons (it was an algorithms and data structures course, remember?).
+
+The UI is controlled entirely with the mouse, there's no keyboard input. Sorry.
 
 At the moment GTK+ 2 is used, since I've had some technical difficulties getting GTK+ 3 or gtkmm to work on the destination (university's) server, so I went with what worked there. However, if I decide to work some more on this project in the future, I'll likely move to gtkmm.
 
