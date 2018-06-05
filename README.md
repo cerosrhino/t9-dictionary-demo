@@ -1,4 +1,4 @@
-# t9-dictionary-demo
+# T9 dictionary demo
 ## Description
 This is a T9 dictionary toy; I'm not sure if you'll find it useful. I made it as an assignment for an algorithms and data structures course at my university. It's been unmaintained for a while, but I might come back to it given sufficient time and motivation.
 
